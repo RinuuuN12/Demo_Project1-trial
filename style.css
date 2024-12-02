@@ -1,0 +1,163 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: 'Times New Roman';
+    line-height: 1.80;
+}
+
+/* Navbar styling */
+.navbar {
+    background: linear-gradient(to right, #880372, #c81c47a2); /* Linear gradient background */
+    padding: 15px 0;
+    z-index: 1200;
+}
+
+/* Navbar links container */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar links */
+.nav-links li {
+    margin: 0 20px;
+}
+
+/* Style for the anchor links */
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* White color for text */
+    font-size: 25px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}
+
+/* Optional: Add a responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+section {
+    border: 10px solid black transparent;
+    padding: 10px;
+    margin: 1px;
+    border: radius 3.5em;
+    
+  }
+  
+  #section1 {
+    background-position: center flex;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;  
+    background-image: url(Portfolio.jpg);
+    height: 600px;
+    font-style: normal;
+    font-size: xx-large;
+}
+#section1 p{
+    color: crimson;
+}
+  #section2 {
+   background-image: url(About\ Me.jpg);
+    justify-content: center;
+    text-align: center;                              
+    height: 255px;
+    font-size: xx-large;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+  }
+  #section2 p{
+    color: crimson;
+}
+ 
+  #section3 {
+  background-image: url(My\ Work\ Image.jpg) ;
+  text-align: center;
+  background-size: 150vw 150vh;
+  justify-content: center;
+  font-size: x-large;
+  font-family: Arial;
+  font-weight: bold;
+  height: 300px;
+  }
+
+
+  .box {
+    margin-top: 5px;
+    width: 380px;
+    height: 390px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    display: inline-block;
+    margin: 30px; /* Space between the boxes */
+    padding: 15px; /* Space inside the box */
+    border-radius: 12px; 
+    background-size: 350px 350px;
+    transition: background-color 0.4s ease;
+  }
+   /* Box 1 background */
+  .box1 {
+    background-image: url('Image1.jpg'); /* Replace with your image URL */
+    background-size: 325px 325px;
+    background-repeat: no-repeat;
+    display: center flex;
+    object-fit: contain;
+    z-index: 10;
+   
+  }
+  
+  /* Box 2 background */
+  .box2 {
+    background-image: url('Image2.jpg'); /* Replace with your image URL */
+    background-size: 325px 325px;
+    background-repeat: no-repeat;
+    display: center flex;
+    object-fit: contain;
+    z-index: 10;
+  }
+  
+  /* Box 3 background */
+  .box3 {
+    background-image: url('Image3.jpg'); /* Replace with your image URL */
+    background-size: 325px 325px;
+    display: center flex;
+    z-index: 10;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    font-size: x-large;
+    font-family: Arial;
+    font-weight: bold;
+}
